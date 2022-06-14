@@ -8,7 +8,12 @@ export default function Name() {
       </div>
       <h2>Developer</h2>
       <div className="buttons">
-        <a href="/resume" className="btn btn-1">
+        <a
+          href="/files/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-1"
+        >
           Resume
         </a>
         <Link href="/#contact">
@@ -84,8 +89,8 @@ export default function Name() {
           color: var(--white);
           border: var(--white) 0.5px solid;
         }
-        p{
-          line-height: 1.7 ;
+        p {
+          line-height: 1.7;
           margin: 0 auto;
           width: 84%;
           text-align: center;

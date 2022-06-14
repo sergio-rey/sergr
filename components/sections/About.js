@@ -62,6 +62,7 @@ export default function About() {
           display: grid;
           grid-template-columns: 3fr 2fr;
           gap: 50px;
+          margin-bottom: 50px;
         }
         p {
           font-size: var(--text-content-2);

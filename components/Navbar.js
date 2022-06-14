@@ -49,7 +49,12 @@ export default function Navbar() {
               <a>Contact</a>
             </Link>
           </li>
-          <a className="a_navbar" href="/resume">
+          <a
+            className="a_navbar"
+            href="/files/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <li className="resume">Resume</li>
           </a>
         </ul>
@@ -63,7 +68,7 @@ export default function Navbar() {
           height: 100px;
           padding: 29px 0;
           z-index: 5;
-          background: var(--transparent)
+          background: var(--transparent);
         }
         nav {
           position: relative;

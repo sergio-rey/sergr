@@ -32,18 +32,18 @@ export default function Footer() {
           </a>
         </div>
         <p>
-          <span>❮</span>{" "}
+          <span>❮ </span>
           <a
             href="https://github.com/sergio-rey/sergr"
             target="_blank"
             rel="noopener noreferrer"
           >
             code
-          </a>{" "}
-          <span>/❯</span> by
-          <Link href="/" as={ process.env.BACKEND_URL + '/'}>
-            <a> Sergio Rey</a>
-          </Link>{" "}
+          </a>
+          <span> /❯</span> by
+          <Link href="/" as={process.env.BACKEND_URL + "/"}>
+            <a> Sergio Rey </a>
+          </Link>
           2022
         </p>
         <style jsx>{`
