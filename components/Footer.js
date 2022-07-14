@@ -52,7 +52,7 @@ export default function Footer() {
           }
           .icons {
             margin: 0 auto;
-            width: 150px;
+            width: 160px;
             display: flex;
             justify-content: space-between;
           }
@@ -60,18 +60,18 @@ export default function Footer() {
             color: blue;
           }
           p {
-            color: var(--white-lower);
+            color: var(--text-color-lower);
             text-align: center;
             font-size: 14px;
           }
           span {
-            color: var(--primary);
+            color: var(--third);
           }
           a {
-            color: var(--white);
+            color: var(--text-color);
           }
           a:hover {
-            color: var(--primary);
+            color: var(--third);
           }
         `}</style>
       </footer>

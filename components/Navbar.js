@@ -63,12 +63,13 @@ export default function Navbar() {
       <style jsx>{`
         header {
           position: fixed;
-          width: calc(100% - 100px);
-          margin: 0 50px;
+          width: 100%;
+          margin: 0;
           height: 100px;
-          padding: 29px 0;
+          padding: 29px 50px;
           z-index: 5;
           background: var(--transparent);
+          border-bottom: solid 0.01px var(--color-box);
         }
         nav {
           position: relative;
@@ -109,18 +110,18 @@ export default function Navbar() {
           list-style: none;
           margin: auto 0 auto 30px;
           padding: 0;
-          color: var(--white);
+          color: var(--text-color);
           font-size: 14px;
         }
         .resume {
           margin: 0 0 0 30px;
           padding: 10.5px 15px;
-          border: var(--white) 0.25px solid;
+          border: var(--text-color) 0.25px solid;
           border-radius: 5px;
         }
         .resume:hover {
           background: var(--primary-lower);
-          color: var(--white);
+          color: var(--text-color);
         }
         li:hover {
           color: var(--primary);
@@ -130,14 +131,12 @@ export default function Navbar() {
         }
         @media only screen and (max-width: 1080px) {
           header {
-            width: calc(100% - 80px);
-            margin: 0 40px;
+            padding: 29px 40px;
           }
         }
         @media only screen and (max-width: 770px) {
           header {
-            width: calc(100% - 50px);
-            margin: 0 25px;
+            padding: 29px 25px;
           }
           ul {
             top: 0;
@@ -160,7 +159,7 @@ export default function Navbar() {
           .resume {
             margin: 0 auto;
             padding: 10.5px 15px;
-            width: 200px;
+            width: 225px;
           }
           .menu {
             z-index: 5;

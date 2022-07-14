@@ -1,32 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:wght@900&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:wght@900&display=swap');
+
+* {
+  box-sizing: border-box;
+  transition: all 0.24s;
+}
+
 html,
 body {
   position: relative;
   padding: 0;
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  font-size: 16px;
 
   background: var(--background);
 
   scroll-behavior: smooth;
 
   --background: black;
-  --background-hight: rgb(8, 8, 8);
-  --white: white;
-  --white-lower: rgb(190, 188, 188);
+  --background-hight: #111111;
+  --transparent: rgba(0, 0, 0, 0.699);
+  --text-color: white;
+  --text-color-lower-1: rgba(255, 255, 255, 0.836);
+  --text-color-lower: rgb(190, 188, 188);
   --primary: #06d6d6;
-  --primary-second: #810ca5;
-  --primary-lower: #06d6d61c;
-  --transparent: rgba(0, 0, 0, 0.336);
+  --primary-hight: #32abf1;
+  --primary-lower: rgba(6, 214, 214, 0.15);
+  --secondary: #9c16c5;
+  --third: #ee7752;
+  --four: #c7c41b;
+  --color-box: #333333;
 
-  --text-title: 150px;
-  --text-second: 130px;
-  --text-third: 40px;
-  --text-fourth: 34.6px;
-  --text-content: 18px;
-  --text-content-2: 16px;
+  --text-title: 10rem;
+  --text-title-second: 8.46rem;
+  --text-title-third: 7.614rem;
+  --text-title-four: 6.8526rem;
+  --text-title-five: 6.16734rem;
+  --text-title-six: 5.55rem;
+  --text-title-seven: 4.44rem;
+  --text-title-eight: 3.99rem;
 
+  --text-subtitle: 8rem;
+  --text-subtitle-second: 6.768rem;
+  --text-subtitle-third: 6.0912rem;
+  --text-subtitle-four: 5.48208rem;
+  --text-subtitle-five: 4.933872rem;
+  --text-subtitle-six: 4.44rem;
+  --text-subtitle-seven: 3.55rem;
+  --text-subtitle-eight: 3.19rem;
+
+
+  --text-third: 2.5rem;
+  --text-fourth: 2.16rem;
+  --text-fifth:  1.4rem;
+  --text-content: 1.12rem;
+  --text-content-2: 1.03rem;
+  --text-content-3: 0.9rem;
 }
+
 
 a {
   color: inherit;
@@ -34,47 +65,67 @@ a {
 }
 
 p {
-  color: var(--white-lower);
-  font-family: 'Montserrat', sans-serif;
+  color: var(--text-color-lower);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3,
+h5, h6 {
   line-height: 1;
   font-weight: 800;
-  letter-spacing: -0.02em;
-  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: -0.04em;
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--text-color);
+
 }
 
 svg {
-  fill: var(--white);
+  fill: var(--text-color);
 }
 svg:hover {
-  fill: var(--primary);
+  fill: var(--third);
 }
 
 ul {
   list-style: none;
 }
 
-.effect-text {
+.effect_text {
   width: 100%;
   background-image: linear-gradient(
     to bottom,
     rgba(172, 106, 172, 0) 92%,
-    var(--primary) 94%,
-    var(--primary) 96%,
+    var(--primary-hight) 94%,
+    var(--primary-hight) 96%,
     rgba(172, 106, 172, 0) 100%
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 200ms linear;
 }
-.effect-text:hover {
+.effect_text:hover {
   background-size: 100% 100%;
 }
 
-* {
-  box-sizing: border-box;
-  transition: all 0.24s;
+.section_g {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
+.img_profile {
+  object-fit: cover;
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+.img_job{
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.img_project {
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+  margin: auto 0;
+}
