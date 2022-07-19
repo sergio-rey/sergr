@@ -18,7 +18,7 @@ export default function Technologies() {
                 <Logo name="Git" png={true} linkP="https://git-scm.com/"/>
                 <Logo name="Nodejs" width="90" linkP="https://nodejs.org/"/>
                 <Logo name="MySQL" width="90" linkP="https://www.mysql.com/"/>
-                <Logo name="MongoDB" width="120" linkP="https://www.mongodb.com/"/>
+                <Logo name="MongoDB" width="130" linkP="https://www.mongodb.com/"/>
             </div>
             <style jsx>{`
               section {
