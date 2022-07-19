@@ -1,132 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:wght@900&display=swap');
 
 * {
-  box-sizing: border-box;
-  transition: all 0.24s;
+    box-sizing: border-box;
+    transition: all 0.24s;
 }
 
 html,
 body {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  font-family: "Work Sans", sans-serif;
-  font-size: 16px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
 
-  background: var(--background);
+    background: var(--background);
 
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 
-  --background: black;
-  --background-hight: #111111;
-  --transparent: rgba(0, 0, 0, 0.699);
-  --text-color: white;
-  --text-color-lower: rgb(190, 188, 188);
-  --text-color-lower-1: rgba(255, 255, 255, 0.836);
-  --text-color-lower-2: #a8b2d1;
-  --primary: #06d6d6;
-  --primary-hight: #32abf1;
-  --primary-lower: rgba(50, 171, 241, 0.18);
-  --primary-lower-second: rgba(7, 29, 59, 0.68);
-  --secondary: #9c16c5;
-  --third: #ee7752;
-  --four: #c74f1b;
-  --five: #ffbf1e;
-  --color-box: #333333;
+    --background: black;
+    --background-hight: #111111;
+    --transparent: rgba(0, 0, 0, 0.699);
+    --text-color: white;
+    --text-color-lower: rgb(190, 188, 188);
+    --text-color-lower-1: rgba(255, 255, 255, 0.836);
+    --text-color-lower-2: #a8b2d1;
+    --primary: #06d6d6;
+    --primary-hight: #32abf1;
+    --primary-lower: rgba(50, 171, 241, 0.18);
+    --primary-lower-second: rgba(7, 29, 59, 0.68);
+    --secondary: #9c16c5;
+    --third: #ee7752;
+    --four: #c74f1b;
+    --five: #ffbf1e;
+    --color-box: #333333;
 
-  --text-title: 10rem;
-  --text-title-second: 9rem;
-  --text-title-third: 8.1rem;
-  --text-title-four: 7.29rem;
-  --text-title-five: 6.16734rem;
-  --text-title-six: 5.55rem;
-  --text-title-seven: 4.99rem;
+    --text-title: 10rem;
+    --text-title-second: 9rem;
+    --text-title-third: 8.1rem;
+    --text-title-four: 7.29rem;
+    --text-title-five: 6.16734rem;
+    --text-title-six: 5.55rem;
+    --text-title-seven: 4.99rem;
 
-  --text-subtitle: 8rem;
-  --text-subtitle-second: 7.2rem;
-  --text-subtitle-third: 6.48rem;
-  --text-subtitle-four: 5.832rem;
-  --text-subtitle-five: 4.933872rem;
-  --text-subtitle-six: 4.44rem;
-  --text-subtitle-seven: 4rem;
+    --text-subtitle: 8rem;
+    --text-subtitle-second: 7.2rem;
+    --text-subtitle-third: 6.48rem;
+    --text-subtitle-four: 5.832rem;
+    --text-subtitle-five: 4.933872rem;
+    --text-subtitle-six: 4.44rem;
+    --text-subtitle-seven: 4rem;
 
 
-  --text-third: 2.5rem;
-  --text-fourth: 2.16rem;
-  --text-fifth:  1.4rem;
-  --text-content: 1.12rem;
-  --text-content-2: 1.03rem;
-  --text-content-3: 0.9rem;
+    --text-third: 2.5rem;
+    --text-fourth: 2.16rem;
+    --text-fifth: 1.4rem;
+    --text-content: 1.12rem;
+    --text-content-2: 1.03rem;
+    --text-content-3: 0.9rem;
 
-  --text-error: 5rem;
+    --text-error: 5rem;
 }
 
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 p {
-  color: var(--text-color-lower);
+    color: var(--text-color-lower);
 }
 
 h1, h2, h3,
 h5, h6 {
-  line-height: 1;
-  font-weight: 800;
-  letter-spacing: -0.04em;
-  font-family: "Source Sans Pro", sans-serif;
-  color: var(--text-color);
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    font-family: "Source Sans Pro", sans-serif;
+    color: var(--text-color);
 
 }
 
 svg {
-  fill: var(--text-color);
+    fill: var(--text-color);
 }
+
 svg:hover {
-  fill: var(--five);
+    fill: var(--five);
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 .effect_text {
-  width: 100%;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(172, 106, 172, 0) 92%,
-    var(--primary-hight) 94%,
-    var(--primary-hight) 96%,
-    rgba(172, 106, 172, 0) 100%
-  );
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 200ms linear;
+    width: 100%;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(172, 106, 172, 0) 92%,
+            var(--primary-hight) 94%,
+            var(--primary-hight) 96%,
+            rgba(172, 106, 172, 0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 200ms linear;
 }
+
 .effect_text:hover {
-  background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
 .section_g {
-  padding-left: 100px;
-  padding-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .img_profile {
-  object-fit: cover;
-  border-radius: 16px;
+    object-fit: cover;
+    border-radius: 16px;
 }
 
-.img_job{
-  object-fit: cover;
-  border-radius: 16px;
+.img_job {
+    object-fit: cover;
+    border-radius: 16px;
 }
 
 .img_project {
-  object-fit: cover;
-  border-radius: 4px;
-  display: block;
-  margin: auto 0;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+    margin: auto 0;
 }
+

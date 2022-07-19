@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Image from "next/image";
-import Logo from "../public/favicon.ico";
+import Logo from "./svg/Logo";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -26,7 +26,7 @@ export default function Navbar() {
             <nav>
                 <Link href="/#name">
                     <a>
-                        <Image src={Logo} alt="Logo of Sergio Rey" width={42} height={42}/>
+                        <Logo />
                     </a>
                 </Link>
                 <div className="menu" onClick={handleMenu}>
