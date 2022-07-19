@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+
 import Github from "./svg/Github.js";
 import Gmail from "./svg/Gmail.js";
 import Linkedin from "./svg/Linkedin.js";
@@ -65,13 +65,13 @@ export default function Footer() {
             font-size: 14px;
           }
           span {
-            color: var(--third);
+            color: var(--five);
           }
           a {
             color: var(--text-color);
           }
           a:hover {
-            color: var(--third);
+            color: var(--five);
           }
         `}</style>
       </footer>
